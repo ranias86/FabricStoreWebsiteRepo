@@ -1,20 +1,268 @@
 
 @font-face {
-    font-family: Rubik-Bold;
-    src: url(../Fonts/Rubik-ExtraBold.ttf);
+    font-family: Barlow-Bold;
+    src: url(../Fonts/BarlowSemiCondensed-Bold.ttf);
 }
 @font-face {
-    font-family: Rubik-Regular;
-    src: url(../Fonts/Rubik-Regular.ttf);
+    font-family: Barlow-Regular;
+    src: url(../Fonts/BarlowSemiCondensed-Regular.ttf);
 }
+@font-face {
+    font-family: SchibstedGrotesk-Bold;
+    src: url(../Fonts/SchibstedGrotesk-Bold.ttf);
+}
+@font-face {
+    font-family: SchibstedGrotesk-Regular;
+    src: url(../Fonts/SchibstedGrotesk-Regular.ttf);
+}
+
+
 * {
     box-sizing: border-box;
     /* To calculate padding from the same size of width not additional. */
-    font-family: Rubik-Regular;
     margin: 0px;
 }
+.CLR{
+    clear: both;
+}
 
+/* <!-- Navbar at the top --> */
+.NavigatorBar{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 9999;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #c7c6c6b4;
+}
+.logo{
+    float: left;
+    width: 33.3%;
 
+}
+.logo img{
+    width: 32px;
+    float: left;
+    margin: 20px 14px 20px 16px;
+
+}
+.LogoText a, .Nav ul li a{
+    text-decoration: none;
+    color: #232323;
+}
+.LogoText a{
+    margin-left: 0;
+    padding-left: 0;
+}
+.LogoText{
+    padding-top: 21px;
+    font-family: Barlow-Regular;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.Nav ul{
+    list-style-type: none;
+}
+.Nav ul li a{
+    color: #232323;
+    float: left;
+    padding: 22px 0px 22px 60px;
+    font-family: SchibstedGrotesk-Regular;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.Buybtn{
+    float: right;
+    margin: 7px 23px;
+    padding: 12px 31px;
+    font-family: SchibstedGrotesk-Regular;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border-color: black;
+    border: solid;
+}
+
+/* <!-- Home --> */
+.BKHome{
+    background-image: url(/images/mbr-1920x1184.jpg);
+    background-size: cover;
+    height: 105vh;
+    background-position-y: -65px;
+}
+
+.Home{
+    background-color: rgba(68, 68, 68, 0.445);
+    color: white;
+}
+.HomeContainer{
+    width: 95%;
+    height: 105vh;
+    margin: auto;
+}
+.HomeContainer H3 {
+    padding-top: 230px;
+}
+.HomeContainer H3, .HomeContainer .ChoiceP{
+    font-family: SchibstedGrotesk-Bold;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+}
+.HomeContainer .TemplateP{
+    font-family: SchibstedGrotesk-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.HomeContainer H1{
+    font-family: Barlow-Bold;
+    padding: 17px 0 25px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 79px;
+}
+.HomeContainer .ChoiceP{
+    padding-bottom: 131px;
+}
+
+/* <!-- Buttons Sections (Shipping, Return and Payments) --> */
+.BtnSection{
+    font-family: SchibstedGrotesk-Regular;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(36, 38, 43);
+}
+.BtnContainer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.BtnShipping{
+    float: left;
+    margin: 0px 250px 0px 0;
+}
+.BtnReturn{
+    float: left;
+    margin: 10px 250px 0px 0;
+}
+.BtnPayment{
+    margin: 40px 0 0px 0;
+}
+.BtnShipping H3{
+    margin: 25px 0 10px;
+    font-weight: 700;
+}
+.BtnReturn H3{
+    margin: 30px 0 10px;
+    font-weight: 700;
+}
+.BtnPayment H3{
+    margin: 15px 0 10px;
+    font-weight: 700;
+}
+.BtnShipping P{
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+.BtnReturn P{
+    margin: 0 0 11px 0;
+    font-weight: 400;
+}
+.BtnPayment P{
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+.BtnShipping button, .BtnReturn button, .BtnPayment button{
+    margin: 0 0 50px 0;
+    padding: 10px 30px 10px 20px;
+    background-color:  rgb(36, 38, 43);
+    color: white;
+    font-family: SchibstedGrotesk-Bold;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    border: solid;
+    border-color:  rgb(36, 38, 43);
+    border-radius: 3px;
+}
+
+/* <!--  Products per Section --> */
+.ProductsSections{
+    background-color: #EFEFEF;
+    height: 100vh;
+}
+.ProductsContainer{
+    width:95%;
+    margin: auto;
+}
+.ProductsLeft, .ProductsRight{
+    position: relative;
+    padding-top: 45px;
+    width: 49%;
+}
+.ProductsLeft{
+    color:white;
+    float: left;
+}
+.ProductsRight{
+    color:black;
+    float: right;
+}
+.ProductsLeft-img, .ProductsRight-img {
+    background-size:cover;
+    width: 100%;
+    height: 380px;
+}
+.ProductsLeft-img{
+    background-image: url(../images/BlueTowel.jpg);
+    float: left;
+}
+.ProductsRight-img{
+    background-image: url(../images/WoolThread.jpg);
+}
+.ProductsLeft-Content,.ProductsRight-Content {
+    position: absolute;
+    left:30px;
+    top:30px;
+    margin-top: 35px;
+}
+
+.ProductsLeft-Content H2, .ProductsRight-Content H2 {
+    font-family: Barlow-Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+}
+.ProductsLeft-Content P,.ProductsLeft-Content button, .ProductsRight-Content P,.ProductsRight-Content button {
+    font-family: SchibstedGrotesk-Regular;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 20px 0px 25px 0;
+}
+.ProductsRight-Content P{
+    margin: 20px 0px 80px 0;
+}
+.ProductsLeft-Content button, .ProductsRight-Content button {
+    padding: 10px 30px 10px 20px;
+    background-color:  rgb(36, 38, 43);
+    color: white;
+    font-family: SchibstedGrotesk-Bold;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    border: solid;
+    border-color:  rgb(36, 38, 43);
+    border-radius: 3px;
+}
 
 @media screen and (max-width:600px) {
   
