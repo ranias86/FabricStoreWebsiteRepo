@@ -531,6 +531,267 @@
     background-color: #E9E9E9;
     margin-left: 597px;
 }
+
+/* <!-- Numbers  --> */
+.Numbers{
+    background-color: #33363B;
+    width: 100%;
+    height: 220px;
+}
+.fa-check{
+    font-size: 48px;
+    color: rgb(183, 155, 108);
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.HappyCustomers, .SalesPerMonth, .RegularCustomers, .DeliveryPoints{
+    float: left;
+    width: 22%;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.HappyCustomers H2, .SalesPerMonth H2, .RegularCustomers H2, .DeliveryPoints H2{
+    color: white;
+    font-family: Barlow-Bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 79px;
+    margin-bottom: 20px;
+}
+.HappyCustomers H3, .SalesPerMonth H3, .RegularCustomers H3, .DeliveryPoints H3{
+    color: white;
+    font-family: SchibstedGrotesk-Bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+/* <!-- Customer reviews  --> */
+
+.CustomerReviewsHeader H2, .CustomerReviewsHeader P{
+    text-align: center;
+    color: rgb(36, 38, 43);
+}
+.CustomerReviewsHeader H2{
+    font-family:  Barlow-Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+    margin: 40px 0 15px 0;
+}
+.CustomerReviewsHeader P{
+    font-family: SchibstedGrotesk-Regular;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 30px ;
+}
+.CustomerReviewsSections {
+    width:95%;
+    margin: auto;
+
+}
+.fa-star{
+    color: #B79C81;
+}
+.Review{
+    background-color: #EFEFEF;
+    width: 22%;
+    padding: 40px 30px 20px;
+    float: left;
+    margin: 0 15px;
+    height: 360px;
+
+}
+.Review H3{
+    font-family: SchibstedGrotesk-Bold;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    margin: 20px 0 20px 0;
+}
+
+.Review P{
+    font-family: SchibstedGrotesk-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.Review H4{
+    font-family: SchibstedGrotesk-Bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+/* <!-- Product with Magnifier  --> */
+.ProductsMagnifier{
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 66vh;
+    margin: 50px 0px;
+}
+.ProductMagContainer{
+    width: 95%;
+    margin: auto;
+
+}
+.MagnifierIMG{
+    width:31%;
+    height: 305px;
+    float: left;
+    margin: 50px 10px;
+
+}
+.MagnifierIMG img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* <!-- Share Depo  --> */
+.ShareDepoHeader{
+    text-align: center;
+    color: rgb(36, 38, 43);
+}
+.ShareDepoHeader h2{
+    font-family:  Barlow-Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+    margin: 0px 0 15px 0;
+}
+
+.ShareDepoHeader p{
+    font-family: SchibstedGrotesk-Regular;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 30px ;
+}
+.ShareDepoIMGs{
+    margin: auto;
+    width: 100%;
+    height: 50vh;
+ 
+}
+.Depo-img{
+    width: 16.666%;
+    height: 100%;
+    float: left;
+}
+.Depo-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    float: left;
+}
+
+/* <!-- Unique Style  --> */
+.UniqueStyle{
+    margin: 90px 0;
+}
+.UniqueContainer{
+    width: 95%;
+    margin: auto;
+}
+.UniqueLeft{
+    background-color: rgb(239, 239, 239);
+    color:     rgb(36, 38, 43);
+    width: 33%;
+    height: 75vh;
+    padding: 40px 30px 30px;
+    float: left;
+}
+.UniqueLeft H3{
+    font-family: SchibstedGrotesk-Bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.UniqueLeft H2{
+    font-family:  Barlow-Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 15px;
+}
+.UniqueLeft P{
+    font-family:  SchibstedGrotesk-Regular;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+.UniqueLeft input{
+    padding: 10px 0px 10px 15px;
+    font-family:  SchibstedGrotesk-Regular; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.UniqueLeft button{
+    margin-left: -48px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #232323;
+    font-family:  SchibstedGrotesk-Regular;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+
+}
+
+.UniqueRight{
+    width: 64%;
+    height: 75vh;
+    float: right;
+}
+.UniqueRight img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* <!-- Footer  --> */
+.Footer{
+    margin-top: 45px;
+    background-color: #33363B;
+    width: 100%;
+    height: 25vh;
+
+}
+.FooterContainer{
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+}
+.Line{
+    margin-top: 10px;
+    width: 100% ;
+    height: 1px;
+    background-color: rgba(193, 193, 193, 0.295);
+}
+
+.FooterContent p{
+    margin-top: 30px;
+    color: rgb(193, 193, 193);
+    font-family:  SchibstedGrotesk-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 40px;
+    
+}
 @media screen and (max-width:600px) {
   
 }
